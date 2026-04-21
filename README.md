@@ -18,6 +18,7 @@ Welcome to my Week 01 Python internship practice workspace. This folder contains
 - Functions and return values
 - Classes, objects, methods, and attributes
 - Inheritance and code reuse
+- Lists and dictionaries
 
 ## Project Files
 
@@ -29,6 +30,9 @@ Welcome to my Week 01 Python internship practice workspace. This folder contains
 | `Basic_Calculator.py` | Menu-based calculator supporting `+`, `-`, `*`, `/` with divide-by-zero guard. |
 | `unit_converter.py` | Menu-driven converter for kg->g, km->m, and C->F. |
 | `if_statements.py` | Extensive if/elif/else practice, boolean logic, max-of-three function, and operator-based calculator flow. |
+| `lists.py` | Practice with list creation, indexing, updating, slicing, and common list methods. |
+| `Dictionaries.py` | Demonstrates dictionary creation, key access, updates, and lookups. |
+| `functions.py` | Basic function definitions, arguments, and return-value examples. |
 | `classes_and_objects.py` | Defines the `Student` class with an intro method and honor-roll check. |
 | `Student.py` | Creates and tests `Student` objects imported from `classes_and_objects.py`. |
 | `Chef.py` | Base `Chef` class with cooking methods. |
@@ -55,9 +59,10 @@ python Quiz_App.py
 4. `Basic_Calculator.py`
 5. `unit_converter.py`
 6. `if_statements.py`
-7. `classes_and_objects.py` + `Student.py`
-8. `Chef.py` + `ChineseChef.py` + `Cheff.py`
-9. `Quiz_App.py`
+7. `lists.py` + `Dictionaries.py` + `functions.py`
+8. `classes_and_objects.py` + `Student.py`
+9. `Chef.py` + `ChineseChef.py` + `Cheff.py`
+10. `Quiz_App.py`
 
 ## Future Improvements
 
