@@ -117,3 +117,9 @@ print(lucky_numbers)
 
 # Create a copy of the friends list (a new separate list with same elements)
 print(friends.copy())
+
+
+#remove duplicates from a list using set
+numbers = [1, 2, 2, 3, 4, 4, 5]
+unique = list(set(numbers))
+print(unique)
