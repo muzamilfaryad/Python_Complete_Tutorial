@@ -41,3 +41,19 @@ print(result)  # Output: 8
 def cube(num):
     return num ** 3
 print(cube(2))  # Output: 8
+
+
+
+#Exponential function
+def power(base, exponent):
+    return base ** exponent
+print(power(2, 3))  # Output: 8
+
+
+def raise_to_power(base, pow):
+    result = 1
+    for i in range(pow):
+        result *= base
+    return result
+print(raise_to_power(2, 3))  # Output: 8
+
