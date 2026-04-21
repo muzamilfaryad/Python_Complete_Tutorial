@@ -70,3 +70,22 @@ for index in range(5):
         print("First Iteration")   # Runs only for first loop
     else:
         print("Other Iteration")   # Runs for remaining loops
+
+
+# -------------------------------
+# 2D Loops and Nested Loops
+# -------------------------------
+
+number_grid = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [0]
+]
+
+print(number_grid[0][0])  # Output: 1
+
+
+for row in number_grid:          # Outer loop iterates through each row
+    for col in row:             # Inner loop iterates through each column in the current row
+        print(col)              # Print the current element
