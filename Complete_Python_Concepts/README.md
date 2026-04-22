@@ -1,4 +1,4 @@
-# 🐍 Python Concepts - Week 01 Mastery
+# 🐍 Python, Django Mastery Course
 
 > **A Comprehensive Collection of Interactive Python Programs Building Strong Fundamentals**
 
@@ -10,7 +10,7 @@
 
 ## 🎯 Overview
 
-This repository showcases **30+ practical Python programs** built during intensive internship training. Each script is a focused exercise that progressively builds mastery of core Python concepts—from fundamental syntax to object-oriented programming and error handling.
+This repository showcases **30+ practical Python programs** built during the **Python, Django Mastery Course**. Each script is a focused exercise that progressively builds mastery of core Python concepts—from fundamental syntax to object-oriented programming and error handling.
 
 ### Why This Repository?
 ✨ **Real-world practice** • 🔄 **Progressive learning** • 🎓 **Production-ready code** • 📚 **Well-documented** • 🚀 **Interactive programs**
@@ -30,6 +30,7 @@ This repository showcases **30+ practical Python programs** built during intensi
 | **Exception Handling** | `try_except.py`, `Basic_Calculator.py` | ⭐⭐⭐ Intermediate |
 | **OOP & Inheritance** | `classes_and_objects.py`, `Chef.py`, `ChineseChef.py` | ⭐⭐⭐⭐ Advanced |
 | **Project Integration** | `Quiz_App.py`, `unit_converter.py` | ⭐⭐⭐⭐ Advanced |
+| **Testing with Pytest** | `Contact_Book_Cli/test_main.py` | ⭐⭐⭐ Intermediate |
 
 ---
 
@@ -116,6 +117,7 @@ Integrate multiple concepts into sophisticated applications.
 | [`app.py`](app.py) | Application launcher or utility hub | Project integration | `python app.py` |
 | [`useful.py`](useful.py) | Utility functions and helper code | Code organization | `python useful.py` |
 | [`tracker.py`](tracker.py) | Track and manage data entries | Data management | `python tracker.py` |
+| [`Contact_Book_Cli/main.py`](Contact_Book_Cli/main.py) | CLI contact manager with JSON persistence and menu-driven flow | CRUD operations, file persistence, testing | `python Contact_Book_Cli/main.py` |
 
 ### 📄 **Data Files** (Used by Programs)
 - `employees.txt` / `employees1.txt` – Sample employee data
@@ -134,7 +136,7 @@ Integrate multiple concepts into sophisticated applications.
 ### Installation
 ```bash
 # Navigate to the project directory
-cd week01/Python_Concepts
+cd Python_Concepts
 
 # (Optional) Create a virtual environment
 python -m venv venv
@@ -157,6 +159,27 @@ Enter first number: 10
 Enter second number: 5
 10.0 + 5.0 = 15.0
 ```
+
+### Run Contact Book CLI
+```bash
+cd Contact_Book_Cli
+python main.py
+```
+
+### Run Contact Book Tests (pytest)
+```bash
+cd Contact_Book_Cli
+pytest -q
+```
+
+### What `pytest` Covers In Contact Book CLI
+- add contact flow and duplicate prevention
+- show contacts for empty and non-empty states
+- update contact and update-not-found path
+- delete by name and delete-not-found path
+- delete a specific contact when duplicate names exist
+- warning flow when multiple contacts share the same name
+- save function smoke check
 
 ---
 
@@ -271,7 +294,7 @@ This repository adheres to:
 
 ## 🙋 About This Journey
 
-This repository documents a comprehensive Python learning journey during intensive internship training. It represents consistent daily practice, problem-solving, and progressive skill-building through hands-on, project-based exercises.
+This repository documents a comprehensive Python learning journey during the **Python, Django Mastery Course**. It represents consistent daily practice, problem-solving, and progressive skill-building through hands-on, project-based exercises.
 
 **Start with `Hello.py` and progress through each phase. Each program builds upon previous knowledge, creating a solid foundation for advanced Python development.**
 
@@ -290,6 +313,11 @@ for /r %f in (*.py) do python "%f"         # Windows
 python --version
 ```
 
+### Run Pytest Suite
+```bash
+pytest -q
+```
+
 ### Get Help
 ```bash
 python <filename.py> --help
@@ -303,7 +331,7 @@ python <filename.py> --help
 
 <div align="center">
 
-**Made with ❤️ during Python Internship Training**  
-Week 01 • 2026
+**Made with ❤️ during Python, Django Mastery Course**  
+2026
 
 </div>
