@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Detail</title>
+</head>
+<body>
+  <h1>Product Detail</h1>
+  {% if object %}
+    <h2>{{ object.title }}</h2>
+    <p>{{ object.description }}</p>
+    <p>Price: {{ object.price }}</p>
+    <p>Summary: {{ object.summary }}</p>
+    <p>Featured: {{ object.featured }}</p>
+  {% else %}
+    <p>No product found.</p>
+  {% endif %}
+</body>
+</html>
