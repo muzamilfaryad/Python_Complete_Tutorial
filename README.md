@@ -8,16 +8,15 @@ Welcome to the Python learning journey! This repository contains a comprehensive
 
 ```
 Python_Course/
-├── week01/
-│   └── Python_Concepts/
-│       ├── Complete_Django_Course/
-│       │   ├── Try-Django/
-│       │   │   ├── DRF/ (Django REST Framework)
-│       │   │   └── Ecommerce_Project/ (Full-stack E-commerce)
-│       │   └── src/ (Django Web Application)
-│       ├── Complete_Python_Concepts/ (Python fundamentals)
-│       ├── Contact_Book_Cli/ (CLI Application)
-│       └── pytest/ (Unit Testing)
+├── Python_Concepts/
+│   ├── Complete_Django_Course/
+│   │   ├── Try-Django/
+│   │   │   ├── DRF/ (Django REST Framework)
+│   │   │   └── Ecommerce_Project/ (Full-stack E-commerce)
+│   │   └── src/ (Django Web Application)
+│   ├── Complete_Python_Concepts/ (Python fundamentals)
+│   ├── Contact_Book_Cli/ (CLI Application)
+│   └── pytest/ (Unit Testing)
 ```
 
 ## 🎯 What's Included
@@ -56,10 +55,10 @@ Python_Course/
 
 Each project has its own README.md file with specific setup instructions:
 
-- [Django Courses Documentation](./week01/Python_Concepts/Complete_Django_Course/README.md)
-- [Complete Python Concepts](./week01/Python_Concepts/Complete_Python_Concepts/README.md)
-- [Contact Book CLI](./week01/Python_Concepts/Contact_Book_Cli/README.md)
-- [Pytest Examples](./week01/Python_Concepts/pytest/README.md)
+- [Django Courses Documentation](./Python_Concepts/Complete_Django_Course/README.md)
+- [Complete Python Concepts](./Python_Concepts/Complete_Python_Concepts/README.md)
+- [Contact Book CLI](./Python_Concepts/Contact_Book_Cli/README.md)
+- [Pytest Examples](./Python_Concepts/pytest/README.md)
 
 ## 🛠️ Tech Stack
 
