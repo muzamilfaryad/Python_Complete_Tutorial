@@ -5,9 +5,12 @@ from .models import Product
 
 def product_create_view(request):
     form = ProductForm(request.POST or None)
+    # print(request.POST)
+    # print(request.GET)
+    # print(request.GET.get('title'))
     if form.is_valid():
         form.save()
-        form = ProductForm()
+        form = ProductForm() # to clear the form after submit
     context = {
         'form': form
     }
