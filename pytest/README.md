@@ -1,5 +1,7 @@
 # Pytest - Unit Testing Project
 
+This is a complete course with projects.
+
 A comprehensive project demonstrating unit testing and test-driven development using pytest framework.
 
 ## 📚 Overview

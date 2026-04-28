@@ -1,5 +1,7 @@
 # Contact Book CLI
 
+This is a complete course with projects.
+
 A command-line contact management application built with Python. Store, manage, and organize your contacts with a simple and intuitive interface.
 
 ## 📚 Overview

@@ -1,5 +1,7 @@
 # Try-Django Projects
 
+This is a complete course with projects.
+
 A collection of Django projects demonstrating various aspects of Django development, from REST API creation to full-stack e-commerce applications.
 
 ## 🎯 Projects Overview

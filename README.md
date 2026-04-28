@@ -1,11 +1,13 @@
-# Python Internship - Complete Learning Journey
+# Python Learning Journey - Complete Course with Projects
 
-Welcome to the Python Internship project! This repository contains a comprehensive collection of Python learning materials, from foundational concepts to advanced Django and REST API development.
+This is a complete course with projects.
+
+Welcome to the Python learning journey! This repository contains a comprehensive collection of Python learning materials, from foundational concepts to advanced Django and REST API development.
 
 ## 📚 Project Structure
 
 ```
-Python_Internship/
+Python_Course/
 ├── week01/
 │   └── Python_Concepts/
 │       ├── Complete_Django_Course/
@@ -83,7 +85,7 @@ Each project has its own README.md file with specific setup instructions:
 
 ## 👨‍💻 Author
 
-Python Internship Project
+Complete Course Project
 
 ## 📄 License
 

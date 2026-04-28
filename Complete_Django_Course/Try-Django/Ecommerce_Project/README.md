@@ -1,5 +1,7 @@
 # Ecommerce Project
 
+This is a complete course with projects.
+
 A complete full-stack e-commerce application with Django REST Framework backend and React frontend.
 
 ## 📚 Overview

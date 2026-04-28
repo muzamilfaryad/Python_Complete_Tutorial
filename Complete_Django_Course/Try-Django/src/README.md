@@ -1,5 +1,7 @@
 # Django Web Application (src)
 
+This is a complete course with projects.
+
 A comprehensive Django web application demonstrating multi-app architecture with template-based rendering.
 
 ## 📚 Overview

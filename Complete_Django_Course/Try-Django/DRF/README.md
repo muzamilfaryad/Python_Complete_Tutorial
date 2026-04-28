@@ -1,5 +1,7 @@
 # Django REST Framework (DRF) Project
 
+This is a complete course with projects.
+
 A Django REST Framework project demonstrating API development with Django.
 
 ## 📚 Overview

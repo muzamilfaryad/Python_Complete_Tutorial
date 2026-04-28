@@ -1,5 +1,7 @@
 # Complete Django Course
 
+This is a complete course with projects.
+
 Welcome to the Complete Django Course project! This directory contains multiple Django projects that demonstrate progressive learning of the Django framework.
 
 ## 📚 Projects Overview
